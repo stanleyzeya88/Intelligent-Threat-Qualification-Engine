@@ -13,7 +13,8 @@ To run this project, ensure you have Python 3.10+ installed.
    venv\Scripts\activate
    # Mac/Linux:
    source venv/bin/activate
-   ## ⚠️ Model Weights Notice
+
+## ⚠️ Model Weights Notice
 Due to GitHub's 100MB file size limit, the fine-tuned DistilGPT2 model weights (`model.safetensors`, 319MB) are not tracked in this repository.
 
 To reproduce the pipeline:
