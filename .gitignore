@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+
+# Large Model Weights & Data
+models/fine_tuned_distilgpt2_security/*.safetensors
+data/*.csv
+data/*.txt

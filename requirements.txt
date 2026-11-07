@@ -1,0 +1,18 @@
+# === Core Data Processing & Math ===
+pandas>=2.2.0       # Data manipulation and loading the NSL-KDD telemetry dataset
+numpy>=1.26.0       # Numerical array operations and matrix transformations
+
+# === Project 3: Machine Learning Classifier ===
+scikit-learn>=1.4.0 # Random Forest classifier, preprocessing (StandardScaler/OneHotEncoder), and metrics
+
+# === Project 5: Generative AI Language Model ===
+torch>=2.0.0        # Deep learning framework required to run the DistilGPT2 model weights
+transformers>=4.36.0 # Hugging Face library for tokenization and loading the fine-tuned causal language model
+
+# === Project 7: Evaluation & Visualization ===
+matplotlib>=3.8.0   # Plotting library (used for any training diagnostic charts)
+seaborn>=0.13.0     # Statistical data visualization (extends matplotlib)
+
+# === Notebook Environment ===
+jupyter>=1.0.0      # Notebook server environment
+ipykernel>=6.0.0    # Jupyter kernel for running the Python 3 execution environment
