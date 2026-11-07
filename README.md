@@ -13,3 +13,10 @@ To run this project, ensure you have Python 3.10+ installed.
    venv\Scripts\activate
    # Mac/Linux:
    source venv/bin/activate
+   ## ⚠️ Model Weights Notice
+Due to GitHub's 100MB file size limit, the fine-tuned DistilGPT2 model weights (`model.safetensors`, 319MB) are not tracked in this repository.
+
+To reproduce the pipeline:
+1. Download the model from: [INSERT GOOGLE DRIVE / HUGGINGFACE LINK HERE]
+2. Place it in `models/fine_tuned_distilgpt2_security/model.safetensors`
+3. Ensure the other model files (`config.json`, `tokenizer.json`, etc.) are present.
